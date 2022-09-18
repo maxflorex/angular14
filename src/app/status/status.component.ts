@@ -4,11 +4,11 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-status',
   template: `
     <h2>
-      Saul Goodman
+       Page Not Found
     </h2>
   `,
   styles: [
-    "h2{color:green}"
+    "h2{color:red}"
   ]
 })
 export class StatusComponent implements OnInit {

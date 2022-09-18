@@ -1,1 +1,11 @@
-<p>home works!</p>
+<p>{{headername | uppercase}}</p>
+<h2 [ngClass]="className">My salary is {{salary | currency:'EUR'}}</h2>
+
+<button (click)="Functionclick('clicked')">Click here</button>
+
+<input [disabled]="isdisabled" #txt (change)="Functionclick(txt.value)">
+
+<br>
+<br>
+
+<input [(ngModel)]="headername">
