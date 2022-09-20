@@ -11,17 +11,24 @@ export class HomeComponent implements OnInit {
   headername = "Angular 14"
   salary = 2000
 
-  isdisabled=true
+  isdisabled = true
 
-  colorName="red"
-  font="50px"
+  colorName = "red"
+  font = "50px"
 
-  className="headclass"
+  className = "headclass"
+
+  stylevalue = {
+    "color": "green",
+    "font-size": "30px"
+  }
+
+  colors = ["green", "yellow", "red", "black"]
 
   ngOnInit(): void {
   }
 
-  Functionclick(name:string) {
+  Functionclick(name: string) {
     console.log(name)
   }
 
